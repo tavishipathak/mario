@@ -39,3 +39,13 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #D9DCD6; 
+    color: #16425B;
+    border-radius: 1rem;
+    border: none;
+}

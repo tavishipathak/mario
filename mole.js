@@ -2,6 +2,7 @@ let currMoleTile;
 let currPlantTile;
 let score = 0;
 let gameOver = false;
+let resetBtn = document.querySelector("#reset-btn");
 
 window.onload = function() {
     setGame();
@@ -75,3 +76,11 @@ function selectTile() {
         gameOver = true;
     }
 }
+
+
+const resetGame = () => {
+    turnO = true;
+    count = 0;
+    enableBoxes();
+    msgContainer.classList.add("hide");
+  };
